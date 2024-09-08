@@ -1,0 +1,55 @@
+.rewards-summary {
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+  max-width: 1000px;
+  background-color: #f5f5f5;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.earnings-overview,
+.cashback-history,
+.cashout-options {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.total-cashback,
+.current-balance {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.cashback-history ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cashout-options .cashout-button {
+  background-color: var(--btn-bgc);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+}
+
+.cashout-options .cashout-button:hover {
+  background-color: var(--btn-bgc-hover);
+}
